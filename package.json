@@ -1,0 +1,22 @@
+{
+  "name": "gruvbox",
+  "displayName": "Gruvbox",
+  "repository": "https://github.com/ahmadaidin/gruvbox-vscode-theme",
+  "description": "Modified version of Mayukai Mirage Gruvbox Darktooth [https://github.com/GulajavaMinistudio/Mayukai-Theme] + Gruvbox N theme By Nicola Peduzzi [https://colorsublime.github.io/themes/Gruvbox-N] + color inspiration from zed editor Gruvbox theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gruvbox Dark Hard",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gruvbox-dark-hard-color-theme.json"
+      }
+    ]
+  }
+}
